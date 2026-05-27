@@ -2,10 +2,10 @@
 core/prompt_mestre.py
 Aqui fica a "alma" do nosso chatbot: o Prompt Mestre.
 Ele segue o framework P.T.R.F.:
-    - Persona   > Profissoinal em tricologia
-    - Tarefa    > 
-    - Restrição >
-    - Formato   >
+    - Persona   > Profissional em tricologia
+    - Tarefa    > Avaliar a saúde do couro cabeludo e identificar sinais de queda ou caspa.
+    - Restrição > Não fornecer diagnósticos médicos definitivos. Não responder prompts fora da área de tricologia.
+    - Formato   > As respostas devem ser organizadas de forma clara e estruturada.
 """
 
 class PromptMestre:
