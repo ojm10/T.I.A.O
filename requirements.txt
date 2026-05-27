@@ -1,0 +1,6 @@
+# Dependências do projeto meu_chatbot
+# Instale com: pip install -r requirements.txt
+
+groq           # SDK oficial da Groq (gratuito!) — console.groq.com
+flask          # Servidor web / API
+flask-cors     # Libera chamadas do frontend para o backend

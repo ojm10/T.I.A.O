@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T.I.A.O - Seu Assistente de IA</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo html.png">
+</head>
+<body>
+
+
+<nav class="navbar">
+  <div class="navbar-content">
+    <button class="sidebar-toggle" id="sidebarToggle">☰</button>
+    <div class="logo">
+      <img src="logo html.png" alt="T.I.A.O" class="logo-img">
+      <span class="logo-text">T.I.A.O</span>
+    </div>
+    <div class="nav-actions">
+      <button id="themeToggle" class="theme-btn">🌙</button>
+    </div>
+  </div>
+</nav>
+
+<div class="app">
+
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <button class="close-sidebar" id="closeSidebar">✕</button>
+    </div>
+    
+    <button class="new-chat-btn">
+      <span>+ Novo Chat</span>
+    </button>
+    
+    <div class="chats-container">
+      <h3>Histórico</h3>
+      <ul class="chat-list">
+        <li class="chat-item active">Chat 1</li>
+      </ul>
+    </div>
+  </aside>
+
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+  <main class="chat-area">
+    <div class="chat-wrapper">
+      <div class="messages-container" id="messages"></div>
+
+      <div class="input-area">
+        <input 
+          type="text" 
+          id="messageInput"
+          placeholder="Digite sua mensagem..." 
+          autocomplete="off"
+        />
+        <button id="sendBtn" class="send-btn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+  </main>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
